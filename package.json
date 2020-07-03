@@ -1,0 +1,25 @@
+{
+  "name": "nodevue",
+  "version": "1.0.0",
+  "description": "Full stack and vue express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon client/index.js"
+  },
+  "author": "its me",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.20",
+    "monk": "^7.3.0",
+    "morgan": "^1.10.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
